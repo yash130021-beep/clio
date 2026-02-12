@@ -1,0 +1,17 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "executionArgs": {
+    "projectName": "clio-frontend",
+    "projectPath": "c:/mini project/clio/frontend",
+    "testIds": [],
+    "additionalInstruction": "Environment restarted to pick up specific code changes.\n1. **Auth**: Uses localStorage `clio_auth` to persist login state. Logout clears it and redirects.\n2. **Integrity Chip**: Uses `data-integrity-state` attribute on the chip container (e.g. `data-integrity-state=\"verified\"`).\n3. **Exports**: DOCX/PDF export links use `data-href` attribute with Blob URL (e.g. `blob:...`).\n4. **Paste**: Paste alerts update `data-integrity-state=\"warning\"`.\n5. **Focus Mode**: Integrity Chip is visible in Focus Mode overlay.",
+    "envs": {
+      "API_KEY": "sk-user-r4PSO1O0h_TJkFDSzniXfn9mEKfc4fhA7CM7B14a92gWpxUIm8NZoZZaqcA7ckHsodhZyCoRkvhwHQBEbzuq1UmihZjImRttSpv1Vr2HmFUAOJgGsPocDQ26v88LSiRxTbs"
+    }
+  },
+  "serverPort": 51038,
+  "proxy": "http://3b1111e5-f90d-43ce-9011-fbacd0a2aade:TRXqGNWNpieDoxsOVNdBt1Na6UoF8GaS@tun.testsprite.com:8080"
+}
